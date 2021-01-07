@@ -57,7 +57,7 @@ div.card.card-body{
 
 @media screen and (max-width: 480px) {
     div.card.card-body{
-    max-height:30vh;
-    max-width:75vw;
+    height:700px;
+    width:400px;
   }
 }
