@@ -54,10 +54,3 @@ div.card.card-body{
     width:500px;
     margin:0 auto;
 }
-
-@media screen and (max-width: 480px) {
-    div.card.card-body{
-    height:700px;
-    width:400px;
-  }
-}
