@@ -10,10 +10,10 @@
 console.log(finalBill.toFixed(2))
 const tipAmount = document.querySelector('#tipAmount')
 const totalBillWithTip = document.querySelector('#totalBillWithTip')
-const tipPerPerson = document.querySelector('#tipPerPerson')
+const totalPerPerson = document.querySelector('#totalPerPerson')
 tipAmount.value = tipValue.toFixed(2);
  totalBillWithTip.value = finalBill.toFixed(2);
- tipPerPerson.value = splitBill.toFixed(2);
+ totalPerPerson.value = splitBill.toFixed(2);
 
 
 
