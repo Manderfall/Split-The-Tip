@@ -56,8 +56,8 @@ div.card.card-body{
 }
 
 @media screen and (max-width: 480px) {
-    div.col-sm{
-    margin:0 auto;
-    max-height:50vh;
+    div.card.card-body{
+    max-height:30vh;
+    max-width:75vw;
   }
 }
