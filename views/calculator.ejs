@@ -73,7 +73,28 @@
               </div>
             </div>
           </div>
-
+          <!doctype html>
+          <head>
+              <title></title>
+          </head>
+          <body>
+          <script>
+              function solution(A, K) {
+              const n = A.length;
+              for (const i = 0; i < n - 1; i++) {
+                  if (A[i] + 1 < A[i + 1])
+                      return false;
+              }
+              if (A[0] != 1 && A[n - 1] != K)
+                  return false;
+              else
+                  return true;
+                  console.log(a.length)
+          }
+          
+          </script>
+          </body>
+          </html>
         <script src="js/calcLogic.js"></script>
     </body>
 </html>
